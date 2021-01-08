@@ -1,0 +1,15 @@
+first ensure git is installed in ur machine
+create a folder in C drive C:/GitRepo
+create/place the files you want to add to git here
+on git hub create a repository and copy the link
+come to cmd and change to the C:\GitRepo directory and follow the following steps:
+1. git status
+2. git init
+3. git add .
+4. git status
+5. C:\GitRepo>git config --global user.email "justforonline19@gmail.com"
+6. git config user.name "rupa-stack"
+7. git commit -m "Message to confirm adding files"
+8. git remote add origin  https://github.com/Rupa-stack/Simple-Java-Hello-World.git
+9. git push -u origin master
+
